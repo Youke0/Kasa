@@ -1,6 +1,6 @@
 import './Apropos.css' 
 import Header from '../../components/Header/Header'
-import BannerAPropos from '../../components/BannerAPropos/BannerAPropos'
+import BannerAPropos from '../../components/Banner/BannerAPropos'
 import Collapse from '../../components/Collapse/Collapse'
 import Footer from '../../components/Footer/Footer'
 

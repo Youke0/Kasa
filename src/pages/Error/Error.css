@@ -1,0 +1,50 @@
+main {
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #FF6060;
+}
+
+.text_404 {
+    display: flex;
+    justify-content: center;
+    font-size: 288px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.message_error {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.return_home {
+    display: flex;
+    justify-content: center;
+    font-style: unset;
+    text-decoration: none;
+    color: #FF6060;
+    font-size: 18px;
+    margin-top: 10%;
+}
+
+@media screen and (max-width:700px) {
+    .text_404 {
+        font-size: 140px;
+        margin-top: 20%;
+    }
+    .message_error{
+        font-size: 28px;
+        margin-left: 12%;
+        text-align: center;
+    }
+    .return_home {
+        font-size: 20px;
+        margin-top: 25%;
+    }
+}

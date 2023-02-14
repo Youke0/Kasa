@@ -14,7 +14,7 @@ a.logement_style{
     text-decoration: none;
 }
 
-p{
+.logement_title{
     position: relative;
     top:-70px;
     padding-left: 15px;

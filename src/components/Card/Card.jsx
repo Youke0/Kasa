@@ -7,7 +7,7 @@ function Card ({logement}) {
         <div className="bloc_logements">
         <a href={'logement/$(logement.id)'} className="logement_style">
             <img className="image_logement" src={logement.cover} alt={logement.cover} />
-            <p>{logement.title}</p>
+            <p className="logement_title">{logement.title}</p>
         </a>
         </div>
     )
