@@ -1,0 +1,23 @@
+aside {
+    width: 86%;
+    top: 15%;
+    position: absolute;
+    margin-left: 7%;
+}
+
+.footer_a_propos {
+    margin-top: 48%;
+    position: relative;
+}
+
+@media screen and (max-width:700px) {
+    aside {
+        height: 223px;
+    }
+    .footer_a_propos {
+        margin-top: 120%;
+    }
+    .banner_a_propos {
+        height: -webkit-fill-available;
+    }
+}

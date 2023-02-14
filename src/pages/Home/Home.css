@@ -1,0 +1,25 @@
+.logements{
+    position: absolute;
+    top: 520px;
+    width: 85.5%;
+    left: 100px;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+}
+
+ul {
+    padding: 2% 2% 0% 2%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+@media screen and (max-width:700px) {
+    .logements{
+        top: 200px;
+        width: 100%;
+        left: 0;
+        background-color: unset;
+    }
+}
