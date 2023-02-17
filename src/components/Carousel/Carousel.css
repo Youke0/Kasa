@@ -1,0 +1,39 @@
+.carousel {
+    width: 100%;
+    position: relative;
+}
+
+.carousel-picture {
+    width: 86%;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 7%;
+}
+
+button {
+    all: initial;
+    position: absolute;
+    width: 80px;
+    height: 100%;
+}
+
+img {
+    width: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.left {
+    left: 7%;
+}
+
+.right {
+    right: 7%;
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width:700px) {
+    .carousel-picture {
+        height: 300px;
+    }
+}

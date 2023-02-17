@@ -5,7 +5,7 @@ function Card ({logement}) {
     console.log(logement)
     return (
         <div className="bloc_logements">
-        <a href={'logement/$(logement.id)'} className="logement_style">
+        <a href={`logement/${logement.id}`} className="logement_style">
             <img className="image_logement" src={logement.cover} alt={logement.cover} />
             <p className="logement_title">{logement.title}</p>
         </a>

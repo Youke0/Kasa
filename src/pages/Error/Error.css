@@ -26,11 +26,10 @@ main {
 .return_home {
     display: flex;
     justify-content: center;
-    font-style: unset;
-    text-decoration: none;
     color: #FF6060;
     font-size: 18px;
     margin-top: 10%;
+    text-decoration: underline;
 }
 
 @media screen and (max-width:700px) {

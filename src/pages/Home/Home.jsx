@@ -20,7 +20,9 @@ function Home() {
                         )}
                     </ul>
                 </main>
+                <div className=''>
                     <Footer />
+                </div>
         </div>
     )
 }

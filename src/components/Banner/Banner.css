@@ -1,4 +1,4 @@
-section{
+.banner{
     position: absolute;
     width: 86%;
     height: 223px;
@@ -37,6 +37,13 @@ h2{
 }
 
 @media screen and (max-width:700px) {
+    .banner{
+        position: relative;
+        width: 91%;
+        top: 90px;
+        height: 100%;
+        margin-left: 4%;
+    }
     section{
         width: 91%;
         height: auto;

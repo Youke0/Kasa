@@ -6,7 +6,9 @@ footer {
 }
 
 .footer_home {
-    top: 295%;
+    position: absolute;
+    width: 100%;
+    top: 290%;
 }
 
 .LOGO_footer {
