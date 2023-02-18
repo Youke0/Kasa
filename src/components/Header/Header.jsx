@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Header.css'
+import "../../fonts/Montserrat-Regular.ttf"
 
 function Header() {
     return (
