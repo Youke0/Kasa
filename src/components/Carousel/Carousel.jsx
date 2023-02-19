@@ -30,6 +30,9 @@ function Carousel({ housing }) {
         src={housing.pictures[pictureIndex]}
         alt={`${housing.title} - ${pictureIndex}`}
       />
+      <div className="carousel_compteur">
+        <p>{pictureIndex + 1}/{picsLength}</p>
+      </div>
     </div>
   )
 }
